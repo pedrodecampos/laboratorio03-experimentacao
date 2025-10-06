@@ -1,0 +1,46 @@
+Nome,Descrição,Linguagem,Estrelas,Forks,PRs Fechados,Criado em,Atualizado em
+freeCodeCamp/freeCodeCamp,"freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer scienc...",TypeScript,429721,41902,41005,2014-12-24T17:49:19Z,2025-10-06T01:55:48Z
+codecrafters-io/build-your-own-x,Master programming by recreating your favorite technologies from scratch.,Markdown,424496,39816,292,2018-05-09T12:03:18Z,2025-10-06T02:21:15Z
+sindresorhus/awesome,😎 Awesome lists about all kinds of interesting topics,,404865,31787,2135,2014-07-11T13:42:37Z,2025-10-06T02:22:31Z
+EbookFoundation/free-programming-books,:books: Freely available programming books,Python,371567,64590,10425,2013-10-11T06:50:37Z,2025-10-06T02:14:14Z
+public-apis/public-apis,A collective list of free APIs,Python,367544,38683,2981,2016-03-20T23:49:42Z,2025-10-06T02:07:19Z
+kamranahmedse/developer-roadmap,"Interactive roadmaps, guides and other educational content to help developers grow in their careers.",TypeScript,339636,43052,5431,2017-03-15T13:45:52Z,2025-10-06T02:11:00Z
+jwasham/coding-interview-university,A complete computer science study plan to become a software engineer.,,330654,80835,992,2016-06-06T02:34:12Z,2025-10-06T02:11:46Z
+donnemartin/system-design-primer,Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashc...,Python,322051,52573,334,2017-02-26T16:15:28Z,2025-10-06T01:52:23Z
+996icu/996.ICU,Repo for counting stars and contributing. Press F to pay respect to glorious developers.,,274470,21043,1910,2019-03-26T07:31:14Z,2025-10-06T01:07:12Z
+vinta/awesome-python,"An opinionated list of awesome Python frameworks, libraries, software and resources.",Python,262877,26391,1574,2014-06-27T21:00:06Z,2025-10-06T02:22:37Z
+Chalarangelo/30-seconds-of-code,Coding articles to level up your development skills,JavaScript,125435,12337,1631,2017-11-29T17:35:03Z,2025-10-05T20:16:44Z
+microsoft/PowerToys,Microsoft PowerToys is a collection of utilities that help you customize Windows and streamline ever...,C#,124073,7393,6566,2019-05-01T17:44:02Z,2025-10-06T01:57:49Z
+facebook/react-native,A framework for building native applications using React,C++,124025,24856,24325,2015-01-09T18:10:16Z,2025-10-06T02:16:54Z
+electron/electron,":electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS",C++,118553,16495,26249,2013-04-12T01:47:36Z,2025-10-06T01:18:25Z
+kubernetes/kubernetes,Production-Grade Container Scheduling and Management,Go,117832,41474,85174,2014-06-06T22:56:04Z,2025-10-06T01:57:40Z
+krahets/hello-algo,"《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, D...",Java,117474,14463,1196,2022-11-04T11:08:34Z,2025-10-06T01:59:56Z
+langchain-ai/langchain,🦜🔗 Build context-aware reasoning applications,Jupyter Notebook,116674,19208,15265,2022-10-17T02:58:36Z,2025-10-06T01:47:15Z
+langgenius/dify,Production-ready platform for agentic workflow development.,TypeScript,115763,17854,9077,2023-04-12T07:40:24Z,2025-10-06T01:47:54Z
+justjavac/free-programming-books-zh_CN,:books: 免费的计算机编程类中文书籍，欢迎投稿,,115360,28358,432,2013-11-04T01:59:19Z,2025-10-06T01:47:57Z
+nodejs/node,Node.js JavaScript runtime ✨🐢🚀✨,JavaScript,113579,33354,37410,2014-11-26T19:57:11Z,2025-10-06T01:22:23Z
+fastapi/fastapi,"FastAPI framework, high performance, easy to learn, fast to code, ready for production",Python,90399,8003,4588,2018-12-08T08:21:47Z,2025-10-06T01:57:48Z
+comfyanonymous/ComfyUI,"The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",Python,90162,10078,2104,2023-01-17T03:15:56Z,2025-10-06T02:21:27Z
+PanJiaChen/vue-element-admin,:tada: A magical vue admin                                                                https://pa...,Vue,89931,30652,484,2017-04-17T03:35:49Z,2025-10-06T00:41:55Z
+supabase/supabase,The Postgres development platform. Supabase gives you a dedicated Postgres database to build your we...,TypeScript,89585,10077,15674,2019-10-12T05:56:49Z,2025-10-06T01:58:52Z
+jaywcjlove/awesome-mac," Now we have become very big, Different from the original idea. Collect premium software in various...",JavaScript,89282,6779,1111,2016-07-17T15:33:47Z,2025-10-06T01:57:44Z
+openai/whisper,Robust Speech Recognition via Large-Scale Weak Supervision,Python,89016,11101,229,2022-09-16T20:02:54Z,2025-10-06T01:42:27Z
+storybookjs/storybook,"Storybook is the industry standard workshop for building, documenting, and testing UI components in ...",TypeScript,87884,9701,14372,2016-03-18T04:23:44Z,2025-10-06T01:34:46Z
+2dust/v2rayN,"A GUI client for Windows, Linux and macOS, support Xray and sing-box and others",C#,87637,13411,512,2019-07-30T03:47:24Z,2025-10-06T01:41:32Z
+nvm-sh/nvm,Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions,Shell,87285,9386,1090,2010-04-15T17:47:47Z,2025-10-05T22:38:07Z
+louislam/uptime-kuma,A fancy self-hosted monitoring tool,JavaScript,75669,6715,1780,2021-07-03T01:02:42Z,2025-10-06T00:31:32Z
+vitejs/vite,Next generation frontend tooling. It's fast!,TypeScript,75609,7294,7260,2020-04-21T05:03:57Z,2025-10-06T02:05:08Z
+typicode/json-server,Get a full fake REST API with zero coding in less than 30 seconds (seriously),JavaScript,75141,7231,323,2013-11-27T13:21:13Z,2025-10-06T00:28:13Z
+elastic/elasticsearch,"Free and Open Source, Distributed, RESTful Search Engine",Java,74948,25530,93350,2010-02-08T13:20:56Z,2025-10-06T01:12:17Z
+hoppscotch/hoppscotch,"Open source API development ecosystem - https://hoppscotch.io (open-source alternative to Postman, I...",TypeScript,74841,5253,2796,2019-08-21T13:15:24Z,2025-10-05T19:18:10Z
+unionlabs/union,"The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely...",Rust,74610,3839,3220,2023-05-16T22:33:39Z,2025-10-05T21:49:06Z
+rasbt/LLMs-from-scratch,"Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",Jupyter Notebook,74538,10886,490,2023-07-23T18:15:57Z,2025-10-06T02:14:43Z
+junegunn/fzf,:cherry_blossom: A command-line fuzzy finder,Go,74192,2588,1018,2013-10-23T16:04:23Z,2025-10-06T01:18:32Z
+coder/code-server,VS Code in the browser,TypeScript,74104,6250,2034,2019-02-27T16:50:41Z,2025-10-06T01:49:13Z
+sdmg15/Best-websites-a-programmer-should-visit,:link: Some useful websites for programmers.,,74046,8437,964,2017-03-05T20:25:17Z,2025-10-06T01:16:12Z
+twitter/the-algorithm,Source code for the X Recommendation Algorithm,Scala,67453,12592,362,2023-03-27T14:57:57Z,2025-10-06T02:14:09Z
+obsproject/obs-studio,OBS Studio - Free and open source software for live streaming and screen recording,C,67244,8711,7155,2013-10-01T02:40:31Z,2025-10-06T00:24:11Z
+caddyserver/caddy,Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS,Go,67100,4499,2604,2015-01-13T19:45:03Z,2025-10-06T01:03:12Z
+fffaraz/awesome-cpp,"A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by...",,66829,8115,991,2014-07-17T08:51:11Z,2025-10-05T23:00:26Z
+zed-industries/zed,"Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators ...",Rust,66689,5459,19569,2021-02-20T03:01:06Z,2025-10-06T02:21:52Z
+ansible/ansible,Ansible is a radically simple IT automation platform that makes your applications and systems easier...,Python,66652,24103,52035,2012-03-06T14:58:02Z,2025-10-06T00:25:40Z

@@ -1,0 +1,4 @@
+# GitHub Token para aumentar o limite de requisições da API
+# Obtenha um token em: https://github.com/settings/tokens
+# Permissões necessárias: public_repo (para acessar repositórios públicos)
+GITHUB_TOKEN=your_github_token_here
