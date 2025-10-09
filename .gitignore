@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ambiente
+.env
+.env.local
+
+# Dados coletados
+data/
+dataset_prs.csv
+dataset_prs.json
+todos_repositorios_populares.json
+repositorios_selecionados.json
+resumo_repositorios.csv
+
+# Resultados da Sprint 2
+graficos/
+relatorio_sprint2.md
+
+# OS
+.DS_Store
+Thumbs.db
+

@@ -13,13 +13,24 @@ lab3/
 ├── coletor_repositorios.py   # Script para coletar repositórios populares
 ├── coletor_prs.py           # Script para coletar PRs e métricas
 ├── executar_sprint1.py      # Script principal para executar a Sprint 1
+├── executar_sprint2.py      # Script principal para executar a Sprint 2
 ├── requirements.txt         # Dependências Python
 ├── env_example.txt         # Exemplo de configuração de token
 ├── README.md              # Este arquivo
-└── data/                  # Diretório para dados coletados (criado automaticamente)
-    ├── repositorios_selecionados.json
-    ├── dataset_prs.json
-    └── dataset_prs.csv
+├── data/                  # Diretório para dados coletados (criado automaticamente)
+│   ├── repositorios_selecionados.json
+│   ├── dataset_prs.json
+│   └── dataset_prs.csv
+├── graficos/              # Diretório para gráficos da Sprint 2 (criado automaticamente)
+│   ├── rq01_tamanho_vs_status.png
+│   ├── rq02_tempo_vs_status.png
+│   ├── rq03_descricao_vs_status.png
+│   ├── rq04_interacoes_vs_status.png
+│   ├── rq05_tamanho_vs_revisoes.png
+│   ├── rq06_tempo_vs_revisoes.png
+│   ├── rq07_descricao_vs_revisoes.png
+│   └── rq08_interacoes_vs_revisoes.png
+└── relatorio_sprint2.md   # Relatório completo da Sprint 2
 ```
 
 ## Configuração
@@ -68,6 +79,33 @@ python coletor_repositorios.py
 # 2. Coletar PRs
 python coletor_prs.py
 ```
+
+### Sprint 2: Análise de dados e resposta às RQs
+
+Após coletar os dados na Sprint 1, execute a análise estatística:
+
+```bash
+python executar_sprint2.py
+```
+
+Este script irá:
+
+1. Carregar o dataset de PRs coletados
+2. Realizar análises estatísticas para todas as 8 questões de pesquisa
+3. Gerar gráficos e visualizações (salvos em `graficos/`)
+4. Criar um relatório completo em Markdown (`relatorio_sprint2.md`)
+
+**Outputs da Sprint 2:**
+
+- `graficos/rq01_tamanho_vs_status.png` - Relação entre tamanho e status
+- `graficos/rq02_tempo_vs_status.png` - Relação entre tempo e status
+- `graficos/rq03_descricao_vs_status.png` - Relação entre descrição e status
+- `graficos/rq04_interacoes_vs_status.png` - Relação entre interações e status
+- `graficos/rq05_tamanho_vs_revisoes.png` - Relação entre tamanho e revisões
+- `graficos/rq06_tempo_vs_revisoes.png` - Relação entre tempo e revisões
+- `graficos/rq07_descricao_vs_revisoes.png` - Relação entre descrição e revisões
+- `graficos/rq08_interacoes_vs_revisoes.png` - Relação entre interações e revisões
+- `relatorio_sprint2.md` - Relatório completo com todos os resultados
 
 ### Critérios de Filtragem
 
@@ -122,20 +160,54 @@ Para cada PR, as seguintes métricas são coletadas:
 - `num_comments`: Número de comentários
 - `num_participants`: Número de participantes únicos
 
+## Testes Estatísticos (Sprint 2)
+
+A Sprint 2 utiliza testes estatísticos não-paramétricos para responder às questões de pesquisa:
+
+### Testes Utilizados
+
+1. **Teste de Mann-Whitney U**
+   - Compara duas grupos independentes (PRs merged vs closed)
+   - Não assume distribuição normal dos dados
+   - Apropriado para dados com outliers
+   - Usado nas RQs 01-04 (Dimensão A)
+
+2. **Correlação de Spearman (ρ)**
+   - Mede associação monotônica entre duas variáveis
+   - Baseada em ranks, não nos valores absolutos
+   - Detecta relações não-lineares
+   - Usado nas RQs 05-08 (Dimensão B)
+
+### Interpretação dos Resultados
+
+- **Nível de significância:** α = 0.05
+- **P-valor < 0.05:** Resultado estatisticamente significativo
+- **Correlação:**
+  - |ρ| < 0.3: Fraca
+  - 0.3 ≤ |ρ| < 0.5: Moderada
+  - 0.5 ≤ |ρ| < 0.7: Forte
+  - |ρ| ≥ 0.7: Muito forte
+
 ## Exemplo de Uso
 
 ```python
 from coletor_repositorios import ColetorRepositorios
 from coletor_prs import ColetorPRs
 
-# Coletar repositórios
+# Sprint 1: Coletar repositórios
 coletor_repos = ColetorRepositorios()
 repositorios = coletor_repos.obter_repositorios_populares(limite=200)
 repos_filtrados = coletor_repos.filtrar_repositorios_por_prs(repositorios, min_prs=100)
 
-# Coletar PRs
+# Sprint 1: Coletar PRs
 coletor_prs = ColetorPRs()
 todos_prs = coletor_prs.coletar_todos_prs("repositorios_selecionados.json")
+
+# Sprint 2: Analisar dados
+from executar_sprint2 import AnalisadorPRs
+
+analisador = AnalisadorPRs()
+analisador.executar_analise_completa()
 ```
 
 O script coleta apenas repositórios públicos. Repositórios privados são automaticamente ignorados.
