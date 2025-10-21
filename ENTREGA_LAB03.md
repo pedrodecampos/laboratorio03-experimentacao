@@ -11,17 +11,21 @@
 ## 📁 ARQUIVOS ENTREGUES (6 ARQUIVOS)
 
 ### 📄 Relatórios (2 arquivos)
+
 - `relatorio_final.md` - **Relatório acadêmico completo** (10.140 bytes)
 - `resumo_executivo.md` - Resumo executivo (4.052 bytes)
 
 ### 📊 Dados e Visualizações (2 arquivos)
+
 - `dataset_prs.csv` - Dataset principal (500 PRs, 85.174 bytes)
 - `graficos/` - 8 gráficos das questões de pesquisa
 
 ### 🐍 Código (1 arquivo)
+
 - `coletor_prs.py` - Script de coleta de dados (13.480 bytes)
 
 ### 📋 Documentação (1 arquivo)
+
 - `README.md` - Este arquivo (1.658 bytes)
 
 ---
@@ -29,12 +33,14 @@
 ## 🎯 PRINCIPAIS RESULTADOS
 
 ### ✅ Descobertas Confirmadas
+
 1. **PRs menores** têm maior chance de merge (80.8 vs 167.2 linhas)
 2. **PRs merged** são analisados mais rapidamente (63.2 vs 156.7 horas)
 3. **Descrições detalhadas** aumentam chance de merge (399.3 vs 229.8 caracteres)
 4. **Nível de interação** influencia o status final
 
 ### 📊 Estatísticas do Dataset
+
 - **500 Pull Requests** analisados
 - **343 PRs merged** (68.6%) vs **157 PRs closed** (31.4%)
 - **Todas as 4 hipóteses** confirmadas (p < 0.001)
@@ -45,16 +51,19 @@
 ## 📋 CRITÉRIOS ATENDIDOS
 
 ### Lab03S01 (5 pontos) ✅
+
 - [x] Lista de repositórios selecionados
 - [x] Script de coleta de PRs e métricas
 - [x] Dataset com dados coletados
 
 ### Lab03S02 (5 pontos) ✅
+
 - [x] Dataset completo com todas as métricas
 - [x] Primeira versão do relatório com hipóteses
 - [x] Análise estatística das 8 RQs
 
 ### Lab03S03 (10 pontos) ✅
+
 - [x] Análise e visualização de dados completa
 - [x] Relatório final elaborado com discussão
 - [x] Testes estatísticos apropriados
@@ -84,4 +93,4 @@
 
 **ENTREGA PRONTA! 🎉**
 
-*Projeto otimizado - Apenas 6 arquivos essenciais*
+_Projeto otimizado - Apenas 6 arquivos essenciais_
